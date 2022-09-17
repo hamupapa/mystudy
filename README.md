@@ -1,4 +1,4 @@
-# javaの基礎
-javaの基礎を勉強するためのリポジトリ
+# JSP/サーブレット
+xxxx
 1. xxxx
 2. xxxx
