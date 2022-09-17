@@ -4,6 +4,7 @@
 tomcat
   + webapps
     + javaweb(コンテキストルート)
+      + HTML, JSP, 画像等(参照可)
       + WEB-INF(参照不可)
         + classes(クラスファイル置き場)
             :
