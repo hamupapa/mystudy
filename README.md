@@ -24,8 +24,6 @@ FirstServlet.class を tomcat/webapps/javaweb/WEB-INF/classes 配下に格納す
 ```
 2. tomcat起動
 ```
-tomcat\bin\startup.bat
-または
 tomcat/bin/startup.sh
 ```
 3. ブラウザで実行
