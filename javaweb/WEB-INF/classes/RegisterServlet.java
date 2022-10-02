@@ -15,7 +15,8 @@ public class RegisterServlet extends HttpServlet {	// HttpServletクラスを継
 			throws IOException, ServletException {		// doPost()をオーバーライド
 
 		// コンテンツタイプを指定
-		res.setContentType("text/html;charset=utf-8");
+		res.setContentType("text/html;charset=UTF-8");
+		req.setCharacterEncoding("UTF-8");
 
 		// PrintWriterを取得
 		PrintWriter out = res.getWriter();
