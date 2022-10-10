@@ -4,14 +4,28 @@
 tomcat
   + webapps
     + javaweb(コンテキストルート)
-      + HTML, JSP, 画像等(参照可)
-      + WEB-INF(参照不可)
+      + HTML, JSP, 画像等(参照可のファイル)
+      + WEB-INF(参照不可のファイル)
         + classes(クラスファイル置き場)
             :
 ```
 ## ファイル一覧
 ```
-aaa
++ javaweb/
+  + WEB-INF/
+    + classes/
+      + FirstServlet.java
+      + RegisterServlet.java
+      + RegisterServlet3.java
+      + SessionServlet.java
+  + first.jsp
+  + fortune.jsp
+  + register.html
+  + register2.html
+  + register2.jsp
+  + register3.html
+  + register3.jsp
+  + session.html
 ```
 ## コンパイル手順
 ```
