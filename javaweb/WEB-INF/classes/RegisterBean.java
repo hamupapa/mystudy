@@ -8,7 +8,6 @@ public class RegisterBean implements Serializable{
     private String[] langs;
 
     public RegisterBean() {
-
     }
 
     public void setName(String name){
